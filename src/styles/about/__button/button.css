@@ -1,0 +1,14 @@
+.about__btn {
+  position: relative;
+  top:20%;
+  border: 1px solid white;
+  border-radius: 50px;
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  align-self: center;
+}
+
+.about__btn:hover {
+  opacity: 0.8;
+}

@@ -1,0 +1,28 @@
+.about__title {
+  width: 50%;
+  word-break: break-word;
+  margin:0 auto;
+  color: white;
+  font-family: 'Montserrat';
+  font-size: 4em;
+  
+}
+.about__subtitle {
+ margin:0;
+ margin-top:10px;
+ color: white;
+ font-family: 'Montserrat';
+ font-size: 2em;
+}
+
+.about__span {
+  font-family: 'Roboto';
+  font-weight: 400;
+  color: white;
+  margin: 0;
+  font-size: 0.6em;
+  text-align: end;
+  width: 200px;
+  margin-left: 63%;
+  margin-bottom: 5%
+}

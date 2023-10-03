@@ -1,0 +1,164 @@
+.header__nav {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin-left: 200px;
+  
+}
+.header__nav_logo {
+  width: 70px;
+  height: 70px;
+  background-image: url('../../../images/logo2.png');
+  background-size: cover;
+  margin: 0px 0 0 10px;
+  position: absolute;
+  cursor: pointer;
+}
+.header__nav_ul {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  margin-right: 15%;
+}
+
+.header__nav_li {
+  cursor: pointer;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  position: relative;
+  padding-bottom: 20px;
+  white-space: nowrap;
+}
+
+.header__nav_li::before {
+	content: '';
+	position: absolute;
+	left: 0; bottom: 14px;
+	width: 0;
+	height: 1.5px;
+	background-color: grey;
+}
+
+.header__nav_li:hover:before {
+	width: 100%;
+}
+
+.header__nav_li::before {
+	transition: width 0.35s;
+}
+
+.header__nav_li:hover .sub-menu {
+  display: block;
+}
+
+.sub-menu {
+  display: none;
+  position: absolute;
+  top: 35px;
+  left: -65%;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  width: 155px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.sub-menu_li {
+  margin-bottom: 10px;
+  margin-left: -23px;
+  font-weight: 200;
+  white-space: normal;
+}
+.sub-menu_li:hover {
+  opacity: 0.6;
+  color: grey;
+}
+.header__nav_num {
+  font-weight: 400;
+  font-family: 'Roboto';
+  white-space: nowrap;
+}
+.header__nav_cop {
+  cursor: pointer;
+}
+
+.header__nav_svg {
+  padding-right: 15px;
+  margin-left: 80px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.header__nav_svg:hover {
+  transform: scale(1.3);
+  color: green;
+}
+
+.header__nav_shop {
+  cursor: pointer;
+  margin-left: 10%;
+}
+
+/* SaleBaskerMobile*/
+@media screen and (max-width: 468px) {
+  .MuiBox-root.css-enijxj {
+    position: absolute;
+    top: 200px;
+    left: 5px;
+    width: 90%;
+  }
+  .basket_sale {
+  flex-direction: column;
+  align-items: center;
+  
+  
+  }
+  .MuiBox-root.css-pwpmy4 {
+    align-items: flex-start;
+}
+a.header__nav_logo {
+  left: 1px;
+  top: 5px;
+}
+.MuiTypography-root.MuiTypography-h5.MuiTypography-gutterBottom.css-h93ljk-MuiTypography-root {
+  font-size: 1.2em;
+  
+}
+.p.MuiTypography-root.MuiTypography-body1.css-1pnmrwp-MuiTypography-root {
+  line-height: 1.59;
+}
+.MuiBox-root.css-1ougjtj {
+  justify-content: center;
+  gap: 15px
+} 
+a.MuiLink-root.MuiLink-colorPrimary.MuiLink-inherit.MuiLink-underlineNone.css-1sb865j-JoyLink-root {
+  font-size: 15px;
+}
+.modal_sale {
+  position: absolute;
+  left: 0;
+  top:0;
+  z-index: 10;
+}
+}
+
+@media screen and (max-width: 375px) { 
+  .basket_sale {
+    flex-direction: column;
+    align-items: center;
+    height: 90%;
+    
+    
+    }
+    .MuiBox-root.css-1hskriy {
+      height: 278px;
+      
+    }
+    .MuiBox-root.css-14hbu8e {
+      margin-top:10px;
+      gap: 5px
+    }
+    svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeLarge.css-gu037b-MuiSvgIcon-root {
+      top: -15px
+    }
+}

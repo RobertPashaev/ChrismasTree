@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4d2ed817.css",
+    "main.js": "/static/js/main.384b0159.js",
+    "static/media/litaya.png": "/static/media/litaya.af99a0e0dfbf8cdc3ec6.png",
+    "static/media/Заснежные.png": "/static/media/Заснежные.84c3bfa3e184020086cf.png",
+    "static/media/Настольные.png": "/static/media/Настольные.58d33ee0bddc3c35fe95.png",
+    "static/media/logo2.png": "/static/media/logo2.9f8e9da36691c2d3a230.png",
+    "static/media/tree.png": "/static/media/tree.494554f975a615ed9e1e.png",
+    "static/media/Уличная.png": "/static/media/Уличная.87f591111e08ec909ae4.png",
+    "static/media/bg-about.jpg": "/static/media/bg-about.3e6521a3821dcfc14b9a.jpg",
+    "static/media/Комбинированные.png": "/static/media/Комбинированные.5a1ca4b5c1d2cc479e80.png",
+    "static/media/rew1.jpeg": "/static/media/rew1.426d0f64debeeb62a7fb.jpeg",
+    "static/media/rew4.jpeg": "/static/media/rew4.dd9704a20a6682f9fe5a.jpeg",
+    "static/media/rew12.jpeg": "/static/media/rew12.1a03e9928c09001c06ff.jpeg",
+    "static/media/rew8.jpeg": "/static/media/rew8.25ef930a999f60e1c3d9.jpeg",
+    "static/media/rew11.jpeg": "/static/media/rew11.04f0d65c6bd5d58640b4.jpeg",
+    "static/media/rew7.jpeg": "/static/media/rew7.db2b2ea8398d8815abaf.jpeg",
+    "static/media/rew3.jpeg": "/static/media/rew3.9bbb8ab3f644cab3e9bc.jpeg",
+    "static/media/rew2.jpeg": "/static/media/rew2.70c2b273cbc6912d443a.jpeg",
+    "static/media/rew5.jpeg": "/static/media/rew5.7886936e65abb19a956a.jpeg",
+    "static/media/rew10.jpeg": "/static/media/rew10.8b218f9a0d958cf3cd8b.jpeg",
+    "static/media/rew6.jpeg": "/static/media/rew6.4b7e9d2bd8b165d24219.jpeg",
+    "static/media/rew9.jpeg": "/static/media/rew9.ad39c143fc3dfb8d35bc.jpeg",
+    "index.html": "/index.html",
+    "main.4d2ed817.css.map": "/static/css/main.4d2ed817.css.map",
+    "main.384b0159.js.map": "/static/js/main.384b0159.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d2ed817.css",
+    "static/js/main.384b0159.js"
+  ]
+}

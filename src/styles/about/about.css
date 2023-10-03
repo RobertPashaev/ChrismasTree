@@ -1,0 +1,19 @@
+@import url('./__button/button.css');
+@import url('./__title/title.css');
+
+.about {
+  width: 100%;
+  height: 700px;
+  background-image: url(../../images/bg-about.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 30px 10px 25px black;
+}
+
+
+
+
+

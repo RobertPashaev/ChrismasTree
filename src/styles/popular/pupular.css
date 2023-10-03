@@ -1,0 +1,24 @@
+@import url(./__cards/cards.css);
+@import url(./__text/text.css);
+
+.popular {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: url('https://img3.fonwall.ru/o/be/tree-branch-light-night-vkhe.jpeg?route=mid&h=750');
+  filter: blur(5px);
+  display: block;
+  background-size: cover;
+}
+.popular__title {
+  color: white;
+  font-family: 'Montserrat';
+  font-size: 60px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0;
+  padding-top: 30px;
+  opacity: 0.9;
+}
+
+

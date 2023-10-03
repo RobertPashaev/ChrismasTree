@@ -1,0 +1,46 @@
+.footer {
+  height: 100px;
+  width: 100%;
+  background-color: #c1bfbf;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 30px
+}
+
+.footer__number {
+  display: flex;
+  align-items: center;
+  color: grey;
+  font-family: 'Montserrat';
+  margin-left: 30px;
+  white-space: nowrap;
+  font-size: 1em;
+}
+.footer__email {
+  display: flex;
+  align-items: center;
+  color: grey;
+  font-family: 'Montserrat';
+  font-size: 1em;
+}
+
+.footer__cop {
+  margin-right: 195px;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: center;
+  gap: 40px;
+  margin-top:30px
+  
+}
+
+.footer__inst {
+  color: grey;
+  display: flex;
+}
+.footer__rewives {
+  color: grey;
+  display: flex;
+}

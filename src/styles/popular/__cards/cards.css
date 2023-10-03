@@ -1,0 +1,18 @@
+.popular__cards {
+
+}
+.popular__card {
+width: 200px;
+height: 250px;
+background-color: white;
+}
+
+.card__img {
+  width: 150px;
+  height: 200px;
+}
+
+
+.MuiCardActions-root {
+  
+}
