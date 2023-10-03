@@ -31,7 +31,7 @@ export default function Header() {
   return (
     <>
       <div className='header desktop-header'>
-        <Link to='/Home' className='header__nav_logo'></Link>
+        <Link to='/' className='header__nav_logo'></Link>
         <nav className='header__nav'>
           <ul className='header__nav_ul'>
             <li className='header__nav_li'>
@@ -111,7 +111,7 @@ export default function Header() {
             >
               Закрыть
             </Typography>
-            <Link to='/Home' className='header__nav_logo'></Link>
+            <Link to='/' className='header__nav_logo'></Link>
             <ModalClose id='close-icon' sx={{ position: 'initial' }} />
           </Box>
           <List

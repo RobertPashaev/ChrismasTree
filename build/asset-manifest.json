@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4d2ed817.css",
-    "main.js": "/static/js/main.384b0159.js",
+    "main.js": "/static/js/main.b79528d4.js",
     "static/media/litaya.png": "/static/media/litaya.af99a0e0dfbf8cdc3ec6.png",
     "static/media/Заснежные.png": "/static/media/Заснежные.84c3bfa3e184020086cf.png",
     "static/media/Настольные.png": "/static/media/Настольные.58d33ee0bddc3c35fe95.png",
@@ -24,10 +24,10 @@
     "static/media/rew9.jpeg": "/static/media/rew9.ad39c143fc3dfb8d35bc.jpeg",
     "index.html": "/index.html",
     "main.4d2ed817.css.map": "/static/css/main.4d2ed817.css.map",
-    "main.384b0159.js.map": "/static/js/main.384b0159.js.map"
+    "main.b79528d4.js.map": "/static/js/main.b79528d4.js.map"
   },
   "entrypoints": [
     "static/css/main.4d2ed817.css",
-    "static/js/main.384b0159.js"
+    "static/js/main.b79528d4.js"
   ]
 }
